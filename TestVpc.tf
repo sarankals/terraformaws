@@ -1,4 +1,4 @@
-resource "aws_vpc" "simbu_vpc" {
+resource "aws_vpc" "star_vpc" {
   cidr_block = "${var.vpc_cidr}"
   tags = {
     Name = "Starvpc"
