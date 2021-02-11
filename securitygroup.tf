@@ -1,7 +1,7 @@
 resource "aws_security_group" "webservers" {
   name        = "Http"
   description = "Allow Http all inbound traffic"
-  vpc_id      = "${aws_vpc.simbu_vpc.id}"
+  vpc_id      = "${aws_vpc.star_vpc.id}"
 
   ingress {
     from_port   = 80
